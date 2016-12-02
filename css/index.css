@@ -358,8 +358,8 @@ header {
 	left: 0px;
 }
 #experience-single-wrap #experience-single {
-	width: 970px;
-	height: 504px;
+	width:70%;
+	height:75%;
 	border:4px solid #fff;
 	margin:0 auto;
 	margin-top: 5%;
@@ -368,6 +368,8 @@ header {
 	text-align: center;
 }
 #experience-single img {
+	width: 100%;
+	height: 100%;
 	border-radius: 10px;
 }
 .imgList {
@@ -381,12 +383,6 @@ header {
 }
 #experience-single p {
 	color:#fff;
-}
-#experience-single-wrap > img {
-	position: absolute;
-	bottom:22%;
-	right:17%;
-	cursor: pointer;
 }
 #project {
 	overflow: hidden;
@@ -515,21 +511,15 @@ header {
 		overflow: hidden;
 		margin-left: 30px;
 	}
-	#experience-single-wrap {
-		height: 100%;
-		z-index:9999;
-		background: rgba(0,0,0,0.7);	
-		position: fixed;
-		top: 0px;
-		left: 0px;
+	#experience-single-wrap #experience-single {
+		width: 100%;
+		height: 35%;
+		margin-top: 50%;
 	}
-	#experience-single {
-		width: 400px;
-		border:4px solid #fff;
-		margin:0 auto;
-		margin-top: 5%;
-		border-radius:10px;
-		overflow-x: hidden;
+	#experience-single img  {
+		float: left;
+		width: 52%;
+		height:100%;
 	}
 
 }
